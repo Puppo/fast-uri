@@ -132,6 +132,10 @@ function serialize (cmpts, opts) {
     reference: cmpts.reference,
     resourceName: cmpts.resourceName,
     secure: cmpts.secure,
+    to: cmpts.to,
+    subject: cmpts.subject,
+    body: cmpts.body,
+    headers: cmpts.headers,
     error: ''
   }
   const options = Object.assign({}, opts)
